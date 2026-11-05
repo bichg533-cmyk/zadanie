@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://c4jc870mm7r6o"]
+
+[ext_resource type="Script" uid="uid://btayu40i6fnfv" path="res://shooting_component.gd" id="1_purqo"]
+
+[node name="ShootingComponent" type="Node"]
+script = ExtResource("1_purqo")
+
+[node name="FireTimer" type="Timer" parent="."]
